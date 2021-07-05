@@ -134,3 +134,68 @@ nav {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
     padding: 24px 40px;
 }
+
+.reasons {
+    text-align: center;
+    margin: 20px 0 48px;
+}
+
+.reasons .label {
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 12px 7px 13px;
+    margin: 0 auto;
+}
+
+.reasons .title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .reason_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reason_block .reasons_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+
+.reasons .reason_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reason_block .reasons_descr .reasons_descr_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.reasons .reason_block .reasons_descr .reasons_descr_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
