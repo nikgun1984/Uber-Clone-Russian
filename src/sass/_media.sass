@@ -3,7 +3,7 @@
 		&_item
 			padding-right: 20px
 		&_link
-			font-size: 13px
+			font-size: 11px
 	.promo
 		&_header
 			font-size: 50px
@@ -14,6 +14,21 @@
 			width: 300px
 	.mobile_item
 		width: 300px
+	.footer
+		&_wrapper
+			flex-direction: column
+			justify-content: space-between
+			align-items: center
+		&_wrapper > div 
+			width: 70%
+			display: flex 
+			justify-content: center
+			margin-top: 10px
+			&:nth-child(3)
+				justify-content: center
+		&_social
+			justify-content: center
+
 
 @media (max-width: 991px)
 	.menu
@@ -55,7 +70,7 @@
 		align-items: center
 		flex-direction: column
 		left: -100%
-		width: 50%
+		width: 100%
 		height: 120vh
 		padding: 50px 15px
 		background-color: rgba(0,0,0,0.8)
@@ -66,6 +81,7 @@
 			padding-right: 0
 			border: none
 			margin: 10px
+			text-align: center
 		&_link
 			font-size: 20px
 	
@@ -93,3 +109,80 @@
 					display: none
 				&:nth-child(3)
 					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_phone
+			display: block
+			margin-top: 10px
+			color: #fff
+			font-size: 16px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		&_btn
+			display: block
+			width: 150px
+			height: 40px
+			margin: 0 auto
+			margin-top: 10px
+	.promo
+		&_header
+			line-height: 45px
+	.choice
+		.dark
+			.car
+				top: 350px
+				img
+					width: 100%
+		.white
+			min-height: 0
+			padding: 40px 0 0 0
+	.require
+		&_title
+			text-align: center
+
+@media (max-width: 575px)
+	nav
+		height: 30px
+	.title
+		font-size: 30px
+	.subheader
+		&_text
+			display: none
+
+	.world
+		min-height: 400px
+		&_link
+			font-size: 10px
+	.footer
+		&_wrapper
+			flex-direction: column
+			justify-content: space-between
+			align-items: center
+		&_wrapper > div 
+			width: 70%
+			display: flex 
+			justify-content: center
+			margin-top: 10px
+			&:nth-child(3)
+				justify-content: center
+				img
+					width: 70px
+		&_links
+			&_main 
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				padding: 10px 0
+			&_sub
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				padding: 10px 0
+
+	
